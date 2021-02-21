@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Test</title>
+<link rel="stylesheet" href="reset.css" type="text/css" />
+<link rel="stylesheet" href="css.css" type="text/css" />
+<meta name="viewport" content="width=device-width">
+</head>
+
+<body>
+
+
+    <div class="wrapper reg">
+        <p class="title montserrat">Profile</p>
+        <div class="reg__buttons ">
+            <button class="tab--active tab--btn registration--tab roboto">Registration</button>
+            <button class="tab--btn login--tab roboto">Sign in</button>
+        </div>
+        <div class="social roboto">
+            You can sign in with social
+            <div class="social__images">
+                <a class="social--img">
+                    <img src="images/ico/vk.svg" alt="" >
+                </a>
+                <a class="social--img">
+                    <img src="images/ico/facebook.svg" alt="" >
+                </a>
+                <a class="social--img">                
+                    <img src="images/ico/google.svg" alt="" >
+                </a>
+            </div>
+        </div>
+        <form action="#" method="POST" class="form__reg flex-column">
+            <input type="text" placeholder="Your name" class="form__fields form__name">
+            <input type="email" placeholder="E-mail" class="form__fields form__email">
+            <input type="tel" placeholder="Phone" class="form__fields form__phone">
+            <input type="password" placeholder="Password" class="form__fields form__pass hidden">
+            <label class="custom-checkbox">
+                <input type="checkbox" value="value-1" class="checkbox">
+                <div>I accept the terms of the offer of the <a class="privacy" href="#">privacy policy</a></div>
+            </label>
+            <button class="reg--btn registration--btn reg__margin--btn roboto"> Registration</button>
+            <button class="reg--btn  login--btn roboto"> Sign in</button>
+        </form>
+    </div>
+
+
+
+</body>
+<script src="js.js" defer></script>
+</html>
